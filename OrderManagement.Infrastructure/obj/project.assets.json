@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "OrderManagement.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/OrderManagement.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderManagement.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OrderManagement.Core/1.0.0": {
+      "type": "project",
+      "path": "../OrderManagement.Core/OrderManagement.Core.csproj",
+      "msbuildProject": "../OrderManagement.Core/OrderManagement.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "OrderManagement.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/ashikur-rahman/.nuget/packages/": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/OrderManagement.Core.csproj": {
+              "projectPath": "/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/OrderManagement.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

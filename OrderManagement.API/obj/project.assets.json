@@ -36,6 +36,29 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "OrderManagement.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/OrderManagement.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderManagement.Core.dll": {}
+        }
+      },
+      "OrderManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "OrderManagement.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderManagement.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -75,11 +98,23 @@
         "microsoft.openapi.2.0.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "OrderManagement.Core/1.0.0": {
+      "type": "project",
+      "path": "../OrderManagement.Core/OrderManagement.Core.csproj",
+      "msbuildProject": "../OrderManagement.Core/OrderManagement.Core.csproj"
+    },
+    "OrderManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../OrderManagement.Infrastructure/OrderManagement.Infrastructure.csproj",
+      "msbuildProject": "../OrderManagement.Infrastructure/OrderManagement.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.9"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.9",
+      "OrderManagement.Core >= 1.0.0",
+      "OrderManagement.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -107,7 +142,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/OrderManagement.Core.csproj": {
+              "projectPath": "/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/OrderManagement.Core.csproj"
+            },
+            "/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Infrastructure/OrderManagement.Infrastructure.csproj": {
+              "projectPath": "/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Infrastructure/OrderManagement.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
