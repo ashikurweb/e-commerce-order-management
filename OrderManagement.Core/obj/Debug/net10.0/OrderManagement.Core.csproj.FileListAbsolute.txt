@@ -1,0 +1,12 @@
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/bin/Debug/net10.0/OrderManagement.Core.deps.json
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/bin/Debug/net10.0/OrderManagement.Core.dll
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/bin/Debug/net10.0/OrderManagement.Core.pdb
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/obj/Debug/net10.0/OrderManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/obj/Debug/net10.0/OrderManagement.Core.AssemblyInfoInputs.cache
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/obj/Debug/net10.0/OrderManagement.Core.AssemblyInfo.cs
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/obj/Debug/net10.0/OrderManagement.Core.csproj.CoreCompileInputs.cache
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/obj/Debug/net10.0/OrderManagement.Core.sourcelink.json
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/obj/Debug/net10.0/OrderManagement.Core.dll
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/obj/Debug/net10.0/refint/OrderManagement.Core.dll
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/obj/Debug/net10.0/OrderManagement.Core.pdb
+/home/ashikur-rahman/C#/EcommerceOrderSystem/OrderManagement.Core/obj/Debug/net10.0/ref/OrderManagement.Core.dll
