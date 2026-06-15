@@ -1,3 +1,5 @@
+using OrderManagement.Core.Entities;
+
 namespace OrderManagement.Core.Interfaces;
 
 public interface IOrderRepository : IRepository<Order>
